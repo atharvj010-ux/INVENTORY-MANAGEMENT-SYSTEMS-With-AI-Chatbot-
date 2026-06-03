@@ -9,6 +9,8 @@ import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
 import { signIn, signUp } from "@/firebase/auth";
 import { FloatingBackground } from "@/components/ui/FloatingBackground";
+import { FirebaseSetupBanner } from "@/components/providers/FirebaseSetupBanner";
+import { isFirebaseConfigured } from "@/firebase/client";
 
 type Mode = "login" | "signup";
 
@@ -75,6 +77,8 @@ export function AuthForm({ mode }: { mode: Mode }) {
             </p>
           </div>
 
+          <FirebaseSetupBanner />
+
           <form onSubmit={handleSubmit} className="space-y-4">
             {mode === "signup" ? (
               <Input
@@ -116,7 +120,13 @@ export function AuthForm({ mode }: { mode: Mode }) {
                 error={errors.confirm}
               />
             ) : null}
-            <Button type="submit" variant="gradient" className="w-full" loading={loading}>
+            <Button
+              type="submit"
+              variant="gradient"
+              className="w-full"
+              loading={loading}
+              disabled={!isFirebaseConfigured()}
+            >
               {mode === "login" ? "Sign In" : "Create Account"}
             </Button>
           </form>

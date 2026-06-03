@@ -2,12 +2,16 @@
 
 import { onAuthStateChanged, type User } from "firebase/auth";
 import { useEffect, useState } from "react";
-import { auth } from "@/firebase/client";
+import { auth, isFirebaseConfigured } from "@/firebase/client";
 
 export function useAuth() {
   const [user, setUser] = useState<User | null | undefined>(undefined);
 
   useEffect(() => {
+    if (!isFirebaseConfigured()) {
+      setUser(null);
+      return;
+    }
     const unsub = onAuthStateChanged(auth, (u) => {
       setUser(u);
       if (u) {
@@ -17,5 +21,9 @@ export function useAuth() {
     return unsub;
   }, []);
 
-  return { user: user ?? null, loading: user === undefined };
+  return {
+    user: user ?? null,
+    loading: user === undefined,
+    firebaseReady: isFirebaseConfigured(),
+  };
 }
