@@ -1,0 +1,802 @@
+[
+  {
+    "itemName": "Monitor 27 Inch",
+    "quantity": 9,
+    "category": "Accessories",
+    "status": "In Stock",
+    "createdAt": "2026-05-08T14:55:08.653581",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "USB-C Cable",
+    "quantity": 18,
+    "category": "Storage",
+    "status": "In Stock",
+    "createdAt": "2026-03-12T14:55:08.653631",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Monitor 27 Inch",
+    "quantity": 11,
+    "category": "Audio",
+    "status": "In Stock",
+    "createdAt": "2026-05-13T14:55:08.653640",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Bluetooth Speaker",
+    "quantity": 13,
+    "category": "Accessories",
+    "status": "In Stock",
+    "createdAt": "2026-04-24T14:55:08.653648",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Mechanical Keyboard",
+    "quantity": 9,
+    "category": "Electronics",
+    "status": "In Stock",
+    "createdAt": "2026-04-30T14:55:08.653658",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Mouse Pad",
+    "quantity": 12,
+    "category": "Photography",
+    "status": "In Stock",
+    "createdAt": "2026-04-04T14:55:08.653664",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Laptop Stand",
+    "quantity": 15,
+    "category": "Photography",
+    "status": "In Stock",
+    "createdAt": "2026-04-25T14:55:08.653669",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Monitor 27 Inch",
+    "quantity": 1,
+    "category": "Office",
+    "status": "Low Stock",
+    "createdAt": "2026-05-18T14:55:08.653677",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Tablet Stand",
+    "quantity": 17,
+    "category": "Mobile",
+    "status": "In Stock",
+    "createdAt": "2026-02-27T14:55:08.653684",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Mechanical Keyboard",
+    "quantity": 4,
+    "category": "Photography",
+    "status": "Low Stock",
+    "createdAt": "2026-03-25T14:55:08.653690",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Gaming Mouse",
+    "quantity": 20,
+    "category": "Networking",
+    "status": "In Stock",
+    "createdAt": "2026-04-09T14:55:08.653696",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "WiFi Router",
+    "quantity": 17,
+    "category": "Accessories",
+    "status": "In Stock",
+    "createdAt": "2026-02-25T14:55:08.653701",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Office Chair",
+    "quantity": 14,
+    "category": "Audio",
+    "status": "In Stock",
+    "createdAt": "2026-03-16T14:55:08.653706",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Docking Station",
+    "quantity": 2,
+    "category": "Electronics",
+    "status": "Low Stock",
+    "createdAt": "2026-05-15T14:55:08.653711",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Mechanical Keyboard",
+    "quantity": 14,
+    "category": "Audio",
+    "status": "In Stock",
+    "createdAt": "2026-05-06T14:55:08.653716",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Mechanical Keyboard",
+    "quantity": 3,
+    "category": "Mobile",
+    "status": "Low Stock",
+    "createdAt": "2026-04-23T14:55:08.653721",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Graphics Tablet",
+    "quantity": 14,
+    "category": "Furniture",
+    "status": "In Stock",
+    "createdAt": "2026-03-26T14:55:08.653726",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Bluetooth Speaker",
+    "quantity": 3,
+    "category": "Office",
+    "status": "Low Stock",
+    "createdAt": "2026-03-09T14:55:08.653731",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Mouse Pad",
+    "quantity": 10,
+    "category": "Electronics",
+    "status": "In Stock",
+    "createdAt": "2026-05-11T14:55:08.653736",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Laptop Stand",
+    "quantity": 11,
+    "category": "Gaming",
+    "status": "In Stock",
+    "createdAt": "2026-03-09T14:55:08.653741",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Office Chair",
+    "quantity": 10,
+    "category": "Electronics",
+    "status": "In Stock",
+    "createdAt": "2026-02-27T14:55:08.653746",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Docking Station",
+    "quantity": 13,
+    "category": "Furniture",
+    "status": "In Stock",
+    "createdAt": "2026-04-14T14:55:08.653751",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Portable HDD",
+    "quantity": 10,
+    "category": "Office",
+    "status": "In Stock",
+    "createdAt": "2026-03-12T14:55:08.653756",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Portable HDD",
+    "quantity": 17,
+    "category": "Audio",
+    "status": "In Stock",
+    "createdAt": "2026-04-26T14:55:08.653761",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Bluetooth Speaker",
+    "quantity": 3,
+    "category": "Storage",
+    "status": "Low Stock",
+    "createdAt": "2026-05-16T14:55:08.653766",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Mechanical Keyboard",
+    "quantity": 8,
+    "category": "Audio",
+    "status": "In Stock",
+    "createdAt": "2026-04-07T14:55:08.653772",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Office Chair",
+    "quantity": 16,
+    "category": "Furniture",
+    "status": "In Stock",
+    "createdAt": "2026-05-05T14:55:08.653777",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Tablet Stand",
+    "quantity": 12,
+    "category": "Accessories",
+    "status": "In Stock",
+    "createdAt": "2026-04-28T14:55:08.653782",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "LED Desk Lamp",
+    "quantity": 9,
+    "category": "Networking",
+    "status": "In Stock",
+    "createdAt": "2026-05-16T14:55:08.653791",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Microphone",
+    "quantity": 15,
+    "category": "Audio",
+    "status": "In Stock",
+    "createdAt": "2026-05-12T14:55:08.653796",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Gaming Mouse",
+    "quantity": 2,
+    "category": "Electronics",
+    "status": "Low Stock",
+    "createdAt": "2026-05-08T14:55:08.653801",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Laptop Stand",
+    "quantity": 12,
+    "category": "Networking",
+    "status": "In Stock",
+    "createdAt": "2026-02-20T14:55:08.653806",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Graphics Tablet",
+    "quantity": 15,
+    "category": "Furniture",
+    "status": "In Stock",
+    "createdAt": "2026-02-28T14:55:08.653811",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Smartphone Tripod",
+    "quantity": 2,
+    "category": "Office",
+    "status": "Low Stock",
+    "createdAt": "2026-04-22T14:55:08.653817",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Portable HDD",
+    "quantity": 15,
+    "category": "Photography",
+    "status": "In Stock",
+    "createdAt": "2026-04-05T14:55:08.653822",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "USB-C Cable",
+    "quantity": 3,
+    "category": "Audio",
+    "status": "Low Stock",
+    "createdAt": "2026-03-19T14:55:08.653832",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Smartphone Tripod",
+    "quantity": 10,
+    "category": "Accessories",
+    "status": "In Stock",
+    "createdAt": "2026-03-18T14:55:08.653840",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Laptop Stand",
+    "quantity": 17,
+    "category": "Gaming",
+    "status": "In Stock",
+    "createdAt": "2026-04-12T14:55:08.653848",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "USB-C Cable",
+    "quantity": 5,
+    "category": "Furniture",
+    "status": "Low Stock",
+    "createdAt": "2026-04-13T14:55:08.653856",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Smartphone Tripod",
+    "quantity": 8,
+    "category": "Audio",
+    "status": "In Stock",
+    "createdAt": "2026-05-20T14:55:08.653867",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "WiFi Router",
+    "quantity": 12,
+    "category": "Gaming",
+    "status": "In Stock",
+    "createdAt": "2026-03-03T14:55:08.653874",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Tablet Stand",
+    "quantity": 7,
+    "category": "Photography",
+    "status": "In Stock",
+    "createdAt": "2026-05-13T14:55:08.653879",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Laptop Stand",
+    "quantity": 1,
+    "category": "Networking",
+    "status": "Low Stock",
+    "createdAt": "2026-04-18T14:55:08.653884",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Tablet Stand",
+    "quantity": 12,
+    "category": "Mobile",
+    "status": "In Stock",
+    "createdAt": "2026-02-28T14:55:08.653889",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Monitor 27 Inch",
+    "quantity": 17,
+    "category": "Photography",
+    "status": "In Stock",
+    "createdAt": "2026-03-27T14:55:08.653894",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "LED Desk Lamp",
+    "quantity": 16,
+    "category": "Gaming",
+    "status": "In Stock",
+    "createdAt": "2026-05-19T14:55:08.653899",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Portable HDD",
+    "quantity": 13,
+    "category": "Accessories",
+    "status": "In Stock",
+    "createdAt": "2026-02-23T14:55:08.653904",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Docking Station",
+    "quantity": 10,
+    "category": "Audio",
+    "status": "In Stock",
+    "createdAt": "2026-03-17T14:55:08.653909",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Office Chair",
+    "quantity": 19,
+    "category": "Office",
+    "status": "In Stock",
+    "createdAt": "2026-02-21T14:55:08.653914",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Gaming Headset",
+    "quantity": 12,
+    "category": "Furniture",
+    "status": "In Stock",
+    "createdAt": "2026-03-08T14:55:08.653920",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "LED Desk Lamp",
+    "quantity": 8,
+    "category": "Gaming",
+    "status": "In Stock",
+    "createdAt": "2026-04-16T14:55:08.653925",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Tablet Stand",
+    "quantity": 0,
+    "category": "Gaming",
+    "status": "Out of Stock",
+    "createdAt": "2026-03-10T14:55:08.653929",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Graphics Tablet",
+    "quantity": 7,
+    "category": "Office",
+    "status": "In Stock",
+    "createdAt": "2026-03-01T14:55:08.653934",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Graphics Tablet",
+    "quantity": 18,
+    "category": "Photography",
+    "status": "In Stock",
+    "createdAt": "2026-03-15T14:55:08.653939",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Webcam HD",
+    "quantity": 10,
+    "category": "Mobile",
+    "status": "In Stock",
+    "createdAt": "2026-05-13T14:55:08.653944",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Webcam HD",
+    "quantity": 20,
+    "category": "Gaming",
+    "status": "In Stock",
+    "createdAt": "2026-04-06T14:55:08.653949",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Gaming Mouse",
+    "quantity": 6,
+    "category": "Accessories",
+    "status": "In Stock",
+    "createdAt": "2026-03-29T14:55:08.653954",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Docking Station",
+    "quantity": 12,
+    "category": "Gaming",
+    "status": "In Stock",
+    "createdAt": "2026-04-12T14:55:08.653959",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Gaming Headset",
+    "quantity": 2,
+    "category": "Audio",
+    "status": "Low Stock",
+    "createdAt": "2026-04-26T14:55:08.653964",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "USB-C Cable",
+    "quantity": 5,
+    "category": "Furniture",
+    "status": "Low Stock",
+    "createdAt": "2026-05-17T14:55:08.653969",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Webcam HD",
+    "quantity": 9,
+    "category": "Electronics",
+    "status": "In Stock",
+    "createdAt": "2026-04-24T14:55:08.653974",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Laptop Stand",
+    "quantity": 13,
+    "category": "Photography",
+    "status": "In Stock",
+    "createdAt": "2026-04-14T14:55:08.653978",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Graphics Tablet",
+    "quantity": 5,
+    "category": "Photography",
+    "status": "Low Stock",
+    "createdAt": "2026-04-26T14:55:08.653990",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Portable HDD",
+    "quantity": 4,
+    "category": "Audio",
+    "status": "Low Stock",
+    "createdAt": "2026-04-19T14:55:08.653995",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Bluetooth Speaker",
+    "quantity": 4,
+    "category": "Photography",
+    "status": "Low Stock",
+    "createdAt": "2026-03-04T14:55:08.654000",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Bluetooth Speaker",
+    "quantity": 18,
+    "category": "Accessories",
+    "status": "In Stock",
+    "createdAt": "2026-03-02T14:55:08.654006",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Office Chair",
+    "quantity": 1,
+    "category": "Audio",
+    "status": "Low Stock",
+    "createdAt": "2026-04-11T14:55:08.654011",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "USB-C Cable",
+    "quantity": 0,
+    "category": "Photography",
+    "status": "Out of Stock",
+    "createdAt": "2026-03-15T14:55:08.654016",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "USB-C Cable",
+    "quantity": 13,
+    "category": "Gaming",
+    "status": "In Stock",
+    "createdAt": "2026-05-18T14:55:08.654021",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "WiFi Router",
+    "quantity": 7,
+    "category": "Storage",
+    "status": "In Stock",
+    "createdAt": "2026-04-02T14:55:08.654026",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "External SSD 1TB",
+    "quantity": 14,
+    "category": "Storage",
+    "status": "In Stock",
+    "createdAt": "2026-03-09T14:55:08.654030",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Gaming Headset",
+    "quantity": 1,
+    "category": "Furniture",
+    "status": "Low Stock",
+    "createdAt": "2026-03-29T14:55:08.654035",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Docking Station",
+    "quantity": 12,
+    "category": "Storage",
+    "status": "In Stock",
+    "createdAt": "2026-05-18T14:55:08.654040",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Tablet Stand",
+    "quantity": 14,
+    "category": "Mobile",
+    "status": "In Stock",
+    "createdAt": "2026-03-04T14:55:08.654045",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Laptop Stand",
+    "quantity": 7,
+    "category": "Office",
+    "status": "In Stock",
+    "createdAt": "2026-04-06T14:55:08.654050",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "LED Desk Lamp",
+    "quantity": 9,
+    "category": "Networking",
+    "status": "In Stock",
+    "createdAt": "2026-03-18T14:55:08.654054",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Mechanical Keyboard",
+    "quantity": 1,
+    "category": "Electronics",
+    "status": "Low Stock",
+    "createdAt": "2026-04-22T14:55:08.654059",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Docking Station",
+    "quantity": 8,
+    "category": "Electronics",
+    "status": "In Stock",
+    "createdAt": "2026-02-28T14:55:08.654064",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "External SSD 1TB",
+    "quantity": 8,
+    "category": "Gaming",
+    "status": "In Stock",
+    "createdAt": "2026-05-07T14:55:08.654069",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Tablet Stand",
+    "quantity": 18,
+    "category": "Storage",
+    "status": "In Stock",
+    "createdAt": "2026-03-12T14:55:08.654075",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Graphics Tablet",
+    "quantity": 19,
+    "category": "Office",
+    "status": "In Stock",
+    "createdAt": "2026-05-01T14:55:08.654090",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Laptop Stand",
+    "quantity": 6,
+    "category": "Photography",
+    "status": "In Stock",
+    "createdAt": "2026-04-30T14:55:08.654098",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "WiFi Router",
+    "quantity": 1,
+    "category": "Gaming",
+    "status": "Low Stock",
+    "createdAt": "2026-05-12T14:55:08.654106",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Monitor 27 Inch",
+    "quantity": 4,
+    "category": "Mobile",
+    "status": "Low Stock",
+    "createdAt": "2026-04-05T14:55:08.654115",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Bluetooth Speaker",
+    "quantity": 4,
+    "category": "Mobile",
+    "status": "Low Stock",
+    "createdAt": "2026-04-17T14:55:08.654123",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Laptop Stand",
+    "quantity": 19,
+    "category": "Office",
+    "status": "In Stock",
+    "createdAt": "2026-05-14T14:55:08.654128",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Laptop Stand",
+    "quantity": 7,
+    "category": "Audio",
+    "status": "In Stock",
+    "createdAt": "2026-04-07T14:55:08.654133",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Docking Station",
+    "quantity": 18,
+    "category": "Networking",
+    "status": "In Stock",
+    "createdAt": "2026-03-17T14:55:08.654138",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Microphone",
+    "quantity": 7,
+    "category": "Networking",
+    "status": "In Stock",
+    "createdAt": "2026-03-17T14:55:08.654144",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Graphics Tablet",
+    "quantity": 8,
+    "category": "Electronics",
+    "status": "In Stock",
+    "createdAt": "2026-05-11T14:55:08.654149",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Gaming Headset",
+    "quantity": 3,
+    "category": "Audio",
+    "status": "Low Stock",
+    "createdAt": "2026-03-08T14:55:08.654153",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Microphone",
+    "quantity": 13,
+    "category": "Mobile",
+    "status": "In Stock",
+    "createdAt": "2026-04-14T14:55:08.654158",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Graphics Tablet",
+    "quantity": 5,
+    "category": "Furniture",
+    "status": "Low Stock",
+    "createdAt": "2026-04-05T14:55:08.654163",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Power Bank",
+    "quantity": 18,
+    "category": "Accessories",
+    "status": "In Stock",
+    "createdAt": "2026-03-27T14:55:08.654168",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "WiFi Router",
+    "quantity": 13,
+    "category": "Electronics",
+    "status": "In Stock",
+    "createdAt": "2026-05-11T14:55:08.654173",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "External SSD 1TB",
+    "quantity": 5,
+    "category": "Audio",
+    "status": "Low Stock",
+    "createdAt": "2026-04-13T14:55:08.654178",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Tablet Stand",
+    "quantity": 18,
+    "category": "Office",
+    "status": "In Stock",
+    "createdAt": "2026-04-24T14:55:08.654183",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Office Chair",
+    "quantity": 18,
+    "category": "Accessories",
+    "status": "In Stock",
+    "createdAt": "2026-05-03T14:55:08.654188",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "Webcam HD",
+    "quantity": 20,
+    "category": "Gaming",
+    "status": "In Stock",
+    "createdAt": "2026-04-27T14:55:08.654197",
+    "userId": "USER_UID_HERE"
+  },
+  {
+    "itemName": "WiFi Router",
+    "quantity": 13,
+    "category": "Office",
+    "status": "In Stock",
+    "createdAt": "2026-04-29T14:55:08.654202",
+    "userId": "USER_UID_HERE"
+  }
+]

@@ -1,0 +1,8 @@
+node_modules
+.next
+.env.local
+.env*.local
+data/chat-sessions
+*.log
+.DS_Store
+Thumbs.db

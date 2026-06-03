@@ -1,0 +1,44 @@
+{
+  "name": "inventory-management-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "dev:clean": "node -e \"try{require('fs').rmSync('.next',{recursive:true,force:true})}catch(e){}\" && next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "seed": "node scripts/seed-30-items.mjs"
+  },
+  "dependencies": {
+    "@google/genai": "^2.7.0",
+    "@google/generative-ai": "^0.24.0",
+    "@langchain/google-genai": "^2.1.31",
+    "@langchain/textsplitters": "^1.0.1",
+    "chromadb": "^3.4.3",
+    "duck-duck-scrape": "^2.2.7",
+    "mammoth": "^1.12.0",
+    "pdf-parse": "^2.4.5",
+    "firebase": "^11.0.0",
+    "framer-motion": "^11.18.0",
+    "lucide-react": "^0.511.0",
+    "next": "15.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.5.1",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "uuid": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10",
+    "eslint": "^9",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5"
+  }
+}

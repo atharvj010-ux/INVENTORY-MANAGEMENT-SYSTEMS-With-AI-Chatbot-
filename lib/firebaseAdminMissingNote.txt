@@ -1,0 +1,2 @@
+This project uses client-side Firebase SDK. If later you add server-side operations (Route Handlers) for Firestore CRUD, you may want Firebase Admin SDK.
+

@@ -1,0 +1,305 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Theme tokens ── */
+html {
+  --color-bg-deep: #eef2ff;
+  --color-bg-mid: #ffffff;
+  --color-bg-soft: #f5f3ff;
+  --color-sidebar-bg: #ffffff;
+  --color-navbar-bg: rgba(255, 255, 255, 0.88);
+  --color-border: rgb(99 102 241 / 0.12);
+  --color-surface: rgb(99 102 241 / 0.06);
+  --color-surface-hover: rgb(99 102 241 / 0.1);
+  --color-text: #0f172a;
+  --color-text-muted: #64748b;
+  --color-glass-bg: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+  --color-glass-border: rgb(199 210 254 / 0.6);
+  --color-glass-shadow: rgb(99 102 241 / 0.1);
+  --color-input-bg: #ffffff;
+  --color-input-border: rgb(199 210 254 / 0.7);
+  --health-gauge-track: rgba(99, 102, 241, 0.14);
+  color-scheme: light;
+}
+
+html.dark {
+  --color-bg-deep: #050816;
+  --color-bg-mid: #0b1120;
+  --color-bg-soft: #111827;
+  --color-sidebar-bg: rgb(11 17 32 / 0.96);
+  --color-navbar-bg: rgb(5 8 22 / 0.88);
+  --color-border: rgb(255 255 255 / 0.1);
+  --color-surface: rgb(255 255 255 / 0.05);
+  --color-surface-hover: rgb(255 255 255 / 0.08);
+  --color-text: #ffffff;
+  --color-text-muted: #a1a1aa;
+  --color-glass-bg: rgb(255 255 255 / 0.04);
+  --color-glass-border: rgb(255 255 255 / 0.1);
+  --color-glass-shadow: rgb(0 0 0 / 0.45);
+  --color-input-bg: rgb(255 255 255 / 0.05);
+  --color-input-border: rgb(255 255 255 / 0.1);
+  --health-gauge-track: rgba(255, 255, 255, 0.08);
+  color-scheme: dark;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @apply bg-bg-deep antialiased;
+  color: var(--color-text);
+}
+
+/* ── App shell ── */
+@layer components {
+  .app-sidebar {
+    background-color: var(--color-sidebar-bg);
+    border-color: var(--color-border);
+  }
+
+  .app-navbar {
+    background-color: var(--color-navbar-bg);
+    border-color: var(--color-border);
+  }
+
+  .theme-input {
+    @apply w-full rounded-xl border px-4 py-2.5 text-sm outline-none transition;
+    background-color: var(--color-input-bg);
+    border-color: var(--color-input-border);
+    color: var(--color-text);
+  }
+
+  .theme-input::placeholder {
+    color: var(--color-text-muted);
+  }
+
+  .theme-input:focus {
+    @apply ring-2 ring-accent-cyan/25;
+    border-color: rgb(0 245 255 / 0.45);
+  }
+
+  .theme-surface {
+    background-color: var(--color-surface);
+    border-color: var(--color-border);
+  }
+}
+
+/* Dashboard canvas — outside @layer so light theme always wins */
+.dashboard-main {
+  position: relative;
+  isolation: isolate;
+  background-color: #eef2ff !important;
+  background-image:
+    radial-gradient(ellipse 90% 60% at 0% 0%, rgba(0, 245, 255, 0.22), transparent 55%),
+    radial-gradient(ellipse 70% 50% at 100% 0%, rgba(124, 58, 237, 0.18), transparent 50%),
+    radial-gradient(ellipse 80% 55% at 50% 100%, rgba(236, 72, 153, 0.14), transparent 55%),
+    linear-gradient(165deg, #f8fafc 0%, #eef2ff 35%, #ede9fe 70%, #faf5ff 100%) !important;
+}
+
+.dashboard-main::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.35;
+  background-image: radial-gradient(rgba(99, 102, 241, 0.15) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.dashboard-main-scroll {
+  position: relative;
+  z-index: 1;
+}
+
+html.dark .dashboard-main {
+  background-color: #050816 !important;
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(0, 245, 255, 0.1), transparent 40%),
+    radial-gradient(circle at 80% 0%, rgba(124, 58, 237, 0.14), transparent 35%),
+    radial-gradient(circle at 50% 100%, rgba(236, 72, 153, 0.08), transparent 40%) !important;
+}
+
+html.dark .dashboard-main::before {
+  display: none;
+}
+
+/* AI health gauge center */
+.health-gauge-center {
+  background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+  box-shadow:
+    inset 0 2px 10px rgba(99, 102, 241, 0.08),
+    0 0 0 2px rgba(199, 210, 254, 0.5);
+}
+
+html.dark .health-gauge-center {
+  background: #0b1120;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.06);
+}
+
+/* AI chat composer bar */
+.chat-composer {
+  background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+  border-color: var(--color-border);
+  box-shadow:
+    inset 0 1px 2px rgba(99, 102, 241, 0.05),
+    0 2px 8px rgba(99, 102, 241, 0.06);
+}
+
+html.dark .chat-composer {
+  background: rgb(11 17 32 / 0.65);
+  border-color: rgb(255 255 255 / 0.1);
+  box-shadow: none;
+}
+
+/* ── Glass cards ── */
+.glass {
+  @apply rounded-2xl border backdrop-blur-xl;
+  background: var(--color-glass-bg);
+  border-color: var(--color-glass-border);
+  box-shadow:
+    0 0 0 1px var(--color-glass-border),
+    0 8px 32px var(--color-glass-shadow);
+}
+
+html:not(.dark) .glass {
+  box-shadow:
+    0 0 0 1px rgba(199, 210, 254, 0.5),
+    0 4px 6px -2px rgba(15, 23, 42, 0.04),
+    0 12px 32px -8px rgba(99, 102, 241, 0.15),
+    0 0 40px -10px rgba(0, 245, 255, 0.12);
+}
+
+html.dark .glass {
+  background-color: rgb(255 255 255 / 0.04);
+  background-image: none;
+}
+
+.glass-panel {
+  @apply glass;
+}
+
+.neon {
+  box-shadow:
+    0 0 22px rgba(0, 245, 255, 0.22),
+    0 0 50px rgba(124, 58, 237, 0.15);
+}
+
+html:not(.dark) .neon {
+  box-shadow:
+    0 2px 8px rgb(15 23 42 / 0.06),
+    0 0 20px rgba(0, 245, 255, 0.12);
+}
+
+.glow-border {
+  box-shadow:
+    0 0 0 1px rgba(0, 245, 255, 0.25),
+    0 0 24px rgba(124, 58, 237, 0.2);
+}
+
+html:not(.dark) .glow-border {
+  box-shadow:
+    0 0 0 1px rgba(0, 245, 255, 0.35),
+    0 0 16px rgba(124, 58, 237, 0.12);
+}
+
+.text-gradient {
+  @apply bg-gradient-to-r from-accent-cyan via-accent-purple to-accent-pink bg-clip-text text-transparent;
+}
+
+.mesh-bg {
+  background-color: var(--color-bg-deep);
+}
+
+html:not(.dark) .mesh-bg {
+  background-color: #eef2ff;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 15% 0%, rgba(0, 245, 255, 0.15), transparent 50%),
+    radial-gradient(ellipse 60% 45% at 90% 5%, rgba(124, 58, 237, 0.12), transparent 45%),
+    linear-gradient(180deg, #f8fafc 0%, #eef2ff 50%, #f5f3ff 100%);
+}
+
+html.dark .mesh-bg {
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(0, 245, 255, 0.1), transparent 40%),
+    radial-gradient(circle at 80% 0%, rgba(124, 58, 237, 0.14), transparent 35%),
+    radial-gradient(circle at 50% 100%, rgba(236, 72, 153, 0.08), transparent 40%);
+}
+
+/* Light-mode Tailwind utility harmonization */
+html:not(.dark) .text-white {
+  color: var(--color-text);
+}
+
+html:not(.dark) .text-zinc-300 {
+  color: #334155;
+}
+
+html:not(.dark) .text-zinc-400 {
+  color: #475569;
+}
+
+html:not(.dark) .text-zinc-500 {
+  color: #64748b;
+}
+
+html:not(.dark) [class*="border-white"] {
+  border-color: var(--color-border) !important;
+}
+
+html:not(.dark) [class*="bg-white/"] {
+  background-color: var(--color-surface) !important;
+}
+
+html:not(.dark) [class*="hover:bg-white"]:hover {
+  background-color: var(--color-surface-hover) !important;
+}
+
+html:not(.dark) .hover\:text-white:hover {
+  color: var(--color-text) !important;
+}
+
+html:not(.dark) .theme-toast {
+  background: #ffffff !important;
+  color: #0f172a !important;
+  border: 1px solid rgb(15 23 42 / 0.12) !important;
+}
+
+html.dark .theme-toast {
+  background: #111827 !important;
+  color: #fff !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.35);
+  border-radius: 9999px;
+}
+
+html.dark *::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.25);
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+select {
+  color-scheme: light;
+}
+
+html.dark select {
+  color-scheme: dark;
+}
